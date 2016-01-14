@@ -1,0 +1,25 @@
+{
+  "name": "greenfield.sample.web",
+  "homepage": "https://github.com/kumudug/angular-webapi-greenfield-sample",
+  "authors": [
+    "Kumudu Gunasekara",
+    "Leila Saghar"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8"
+  }
+}
