@@ -1,15 +1,15 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="mainApp">
 <head>
     <title></title>
-	<meta charset="utf-8" />
+    <meta charset="utf-8" />
     <!-- bower:css -->
     <link rel="stylesheet" href="Lib/bootstrap/dist/css/bootstrap.min.css" />
     <!-- endbower -->
 </head>
-<body>
+<body ng-controller="mainCtrl">
     <div>
-
+        {{1+1}}
     </div>
 
     <!-- bower:js -->
@@ -17,5 +17,7 @@
     <script src="Lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="Lib/angular/angular.js"></script>
     <!-- endbower -->
+    <script src="app/main/main-app.mdl.js"></script>
+    <script src="app/main/controllers/main.ctrl.js"></script>
 </body>
 </html>
